@@ -868,6 +868,45 @@ cv2
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーー
 
+固定ボタン
+
+----------------------------------------- */
+.fixed_btn {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 3.4vw;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 4% 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.fixed_btn .btn_line {
+  background-color: #0A5A1C;
+  padding: 10px 6vw 10px 6vw;
+  border-radius: 10vw;
+}
+
+.fixed_btn .btn_web {
+  background-color: #002752;
+  padding: 10px 6vw 10px 6vw;
+  border-radius: 10vw;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーー
+
 フッター
 
 ----------------------------------------- */
