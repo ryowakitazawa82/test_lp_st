@@ -31,7 +31,7 @@ body
 ----------------------------------------- */
 body {
   background-color: #f3f3f3;
-  overflow-x: hidden;
+  font-size: 3.125vw;
 }
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーー
@@ -43,6 +43,7 @@ container
   color: #393e4f;
   background-color: #eceee6;
   max-width: 750px;
+  min-width: 300px;
   margin: 0 auto;
   letter-spacing: .1rem;
   line-height: 1.45;
@@ -58,10 +59,12 @@ header {
   background-color: #fff;
   -webkit-box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.3);
           box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.3);
-  z-index: 10;
-  position: fixed;
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  z-index: 10;
 }
 
 header .hd-logo {
@@ -85,10 +88,9 @@ mv
 }
 
 .title-sub {
-  font-size: 3vw;
+  font-size: 0.7rem;
   color: #fff;
   text-align: left;
-  font-weight: bold;
   padding-left: 24vw;
   padding-bottom: 6vw;
 }
@@ -104,12 +106,12 @@ cv1
 }
 
 .cv_btn {
-  font-size: 0.86rem;
+  font-size: 0.9rem;
   font-weight: bold;
   letter-spacing: 1vw;
   background-color: #0A5A1C;
   border: none;
-  padding: 10px 24px;
+  padding: 0.5rem 0.8rem;
   margin: 10px auto;
   cursor: pointer;
   -webkit-transition: all 0.3s;
@@ -120,7 +122,6 @@ cv1
           transform: translate(-50%, -50%);
   top: 74%;
   left: 50%;
-  text-decoration: none;
 }
 
 .cv01 {
@@ -158,17 +159,16 @@ cv1
 }
 
 .title-basic01 {
-  font-size: 4.8vw;
+  font-size: 0.9rem;
   color: #fff;
   text-align: center;
   padding-top: 1.5rem;
 }
 
 .box-list01 {
-  font-size: 3.4vw;
+  font-size: 0.8rem;
   color: #fff;
   text-align: center;
-  font-weight: bold;
   margin-top: 1.4rem;
   padding-bottom: 5rem;
 }
@@ -183,7 +183,7 @@ cv1
 
 ----------------------------------------- */
 .mini-corner {
-  font-size: 4.8vw;
+  font-size: 0.9rem;
   color: #002752;
   text-align: center;
   background-color: #eceee6;
@@ -205,14 +205,13 @@ cv1
 }
 
 .center .sub02 {
-  font-size: 3.4vw;
+  font-size: 0.8rem;
   color: gray;
   text-align: center;
-  font-weight: bold;
 }
 
 .center .title02 {
-  font-size: 5.2vw;
+  font-size: 1.1rem;
   color: #002752;
   text-align: center;
   font-weight: bold;
@@ -220,16 +219,15 @@ cv1
 }
 
 .center .des02 {
-  font-size: 3vw;
+  font-size: 0.7rem;
   color: #393e4f;
   text-align: left;
-  font-weight: bold;
-  padding: 2vw 0 0 3vw;
+  padding: 2vw 3vw 0 3vw;
   margin: 0 auto;
 }
 
 .center .title02-3 {
-  font-size: 4.8vw;
+  font-size: 0.9rem;
   color: #002752;
   text-align: center;
   font-weight: bold;
@@ -253,12 +251,12 @@ cv2
 }
 
 .cv_btn {
-  font-size: 0.86rem;
+  font-size: 0.9rem;
   font-weight: bold;
   letter-spacing: 1vw;
   background-color: #0A5A1C;
   border: none;
-  padding: 10px 24px;
+  padding: 0.5rem 0.8rem;
   margin: 10px auto;
   cursor: pointer;
   -webkit-transition: all 0.3s;
@@ -297,7 +295,7 @@ cv2
 
 .subtitle-nomal-wrapping .subtitle-nomal p {
   background-color: #002752;
-  font-size: 3.4vw;
+  font-size: 0.8rem;
   color: #fff;
   text-align: center;
   padding-top: 1rem;
@@ -305,7 +303,7 @@ cv2
 
 .subtitle-nomal-wrapping .subtitle-nomal h2 {
   background-color: #002752;
-  font-size: 5.4vw;
+  font-size: 1.15rem;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -429,11 +427,11 @@ cv2
 
 .preview-title01 h3 {
   padding: 0.5rem 0 1rem 23%;
-  font-size: 4.8vw;
+  font-size: 0.9rem;
   color: #002752;
   text-align: left;
   font-weight: bold;
-  background-image: url(https://res.cloudinary.com/timifura/image/upload/v1631000957/%E3%82%B9%E3%83%88English/stu1_gnafra.png);
+  background-image: url(../images/stu1.png);
   background-repeat: no-repeat;
   background-size: 12vw 12vw;
   background-position: 8% -2%;
@@ -447,7 +445,7 @@ cv2
 }
 
 .preview-title01 .preview-des p {
-  font-size: 3vw;
+  font-size: 0.7rem;
   color: #393e4f;
   text-align: left;
   font-weight: bold;
@@ -460,11 +458,11 @@ cv2
 
 .preview-title02 h3 {
   padding: 0.5rem 0 1rem 23%;
-  font-size: 4.8vw;
+  font-size: 0.9rem;
   color: #002752;
   text-align: left;
   font-weight: bold;
-  background-image: url(https://res.cloudinary.com/timifura/image/upload/v1631000958/%E3%82%B9%E3%83%88English/stu2_d7ejku.png);
+  background-image: url(../images/stu2.png);
   background-repeat: no-repeat;
   background-size: 12vw 12vw;
   background-position: 8% -2%;
@@ -478,7 +476,7 @@ cv2
 }
 
 .preview-title02 .preview-des p {
-  font-size: 3vw;
+  font-size: 0.7rem;
   color: #393e4f;
   text-align: left;
   font-weight: bold;
@@ -491,11 +489,11 @@ cv2
 
 .preview-title03 h3 {
   padding: 0.5rem 0 1rem 23%;
-  font-size: 4.8vw;
+  font-size: 0.9rem;
   color: #002752;
   text-align: left;
   font-weight: bold;
-  background-image: url(https://res.cloudinary.com/timifura/image/upload/v1631000958/%E3%82%B9%E3%83%88English/stu3_g5enjo.png);
+  background-image: url(../images/stu3.png);
   background-repeat: no-repeat;
   background-size: 12vw 12vw;
   background-position: 8% -2%;
@@ -509,7 +507,7 @@ cv2
 }
 
 .preview-title03 .preview-des p {
-  font-size: 3vw;
+  font-size: 0.7rem;
   color: #393e4f;
   text-align: left;
   font-weight: bold;
@@ -535,7 +533,7 @@ cv2
 
 .subtitle-nomal-wrapping .subtitle-nomal p {
   background-color: #002752;
-  font-size: 3.4vw;
+  font-size: 0.8rem;
   color: #fff;
   text-align: center;
   padding-top: 1rem;
@@ -543,7 +541,7 @@ cv2
 
 .subtitle-nomal-wrapping .subtitle-nomal h2 {
   background-color: #002752;
-  font-size: 5.4vw;
+  font-size: 1.15rem;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -557,7 +555,7 @@ cv2
 }
 
 .title-basic02 h3 {
-  font-size: 4.8vw;
+  font-size: 0.9rem;
   color: #002752;
   text-align: left;
   font-weight: bold;
@@ -569,10 +567,9 @@ cv2
 }
 
 .title-basic02 p {
-  font-size: 3.4vw;
+  font-size: 0.8rem;
   color: #393e4f;
   text-align: left;
-  font-weight: bold;
 }
 
 /* ーーー
@@ -605,14 +602,14 @@ cv2
 ----------------------------------------- */
 .text-price {
   margin: 2rem 0 2rem 0;
-  font-size: 3.4vw;
+  font-size: 0.8rem;
   color: #393e4f;
   text-align: center;
   font-weight: bold;
 }
 
 .title-price h3 {
-  font-size: 5.2vw;
+  font-size: 1.1rem;
   color: #002752;
   text-align: left;
   font-weight: bold;
@@ -622,7 +619,7 @@ cv2
 }
 
 .title-price p {
-  font-size: 3.4vw;
+  font-size: 0.8rem;
   color: #393e4f;
   text-align: left;
   margin: 0.6rem 0 0 5vw;
@@ -661,7 +658,7 @@ cv2
 }
 
 .mini-corner2 h2 {
-  font-size: 4.8vw;
+  font-size: 0.9rem;
   color: #fff;
   text-align: center;
   padding: 2rem 0 2rem 0;
@@ -701,6 +698,7 @@ cv2
   padding: 3% 3% 3% 50px;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+  font-weight: bold;
 }
 
 /*アイコンの＋と×*/
@@ -775,7 +773,7 @@ cv2
 
 .subtitle-nomal-wrapping2 .subtitle-nomal p {
   background-color: #0A5A1C;
-  font-size: 3.4vw;
+  font-size: 0.8rem;
   color: #fff;
   text-align: center;
   padding-top: 1rem;
@@ -783,7 +781,7 @@ cv2
 
 .subtitle-nomal-wrapping2 .subtitle-nomal h2 {
   background-color: #0A5A1C;
-  font-size: 5.4vw;
+  font-size: 1.15rem;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -822,7 +820,7 @@ cv2
 }
 
 .greeting h2 {
-  font-size: 5.4vw;
+  font-size: 1.15rem;
   color: #393e4f;
   text-align: center;
   font-weight: bold;
@@ -830,7 +828,7 @@ cv2
 }
 
 .greeting p {
-  font-size: 3vw;
+  font-size: 0.7rem;
   color: #393e4f;
   text-align: left;
   padding: 0 0 1rem 8%;
@@ -842,7 +840,7 @@ cv2
 }
 
 .yt-title h3 {
-  font-size: 5.2vw;
+  font-size: 1.1rem;
   color: #002752;
   text-align: left;
   font-weight: bold;
@@ -868,6 +866,19 @@ cv2
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーー
 
+フッター
+
+----------------------------------------- */
+footer {
+  padding: 1rem 0 1rem 0;
+  background-color: #393e4f;
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーー
+
 固定ボタン
 
 ----------------------------------------- */
@@ -876,7 +887,7 @@ cv2
   left: 0;
   bottom: 0;
   width: 100%;
-  font-size: 3.4vw;
+  font-size: 0.8rem;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -907,14 +918,7 @@ cv2
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーー
 
-フッター
+レスポンシブ
 
 ----------------------------------------- */
-footer {
-  padding: 1rem 0 1rem 0;
-  background-color: #393e4f;
-  font-size: 3.4vw;
-  color: #fff;
-  text-align: center;
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=mobile.css.map */
