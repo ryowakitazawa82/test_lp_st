@@ -228,7 +228,7 @@ cv1
 }
 
 .center .title02-3 {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   color: #002752;
   text-align: center;
   padding: 0.4rem;
@@ -942,6 +942,9 @@ footer {
   }
   .title-price p {
     font-size: 0.65rem;
+  }
+  .center .title02-3 {
+    font-size: 0.95rem;
   }
   .attention:before {
     border-bottom: 10vw solid #eceee6;
