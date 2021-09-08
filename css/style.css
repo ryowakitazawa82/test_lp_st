@@ -136,6 +136,7 @@ cv1
 
 ----------------------------------------- */
 .attention {
+  font-weight: bold;
   background-color: #393e4f;
   position: relative;
 }
@@ -159,7 +160,7 @@ cv1
 }
 
 .title-basic01 {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #fff;
   text-align: center;
   padding-top: 1.5rem;
@@ -183,7 +184,7 @@ cv1
 
 ----------------------------------------- */
 .mini-corner {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #002752;
   text-align: center;
   background-color: #eceee6;
@@ -202,6 +203,7 @@ cv1
           box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.3);
   width: 92%;
   margin: 0 auto;
+  font-weight: bold;
 }
 
 .center .sub02 {
@@ -211,10 +213,9 @@ cv1
 }
 
 .center .title02 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #002752;
   text-align: center;
-  font-weight: bold;
   padding: 0.4rem;
 }
 
@@ -227,16 +228,21 @@ cv1
 }
 
 .center .title02-3 {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: #002752;
   text-align: center;
-  font-weight: bold;
   padding: 0.4rem;
+}
+
+.borderbox0 {
+  width: 100%;
+  height: 1rem;
+  background-color: #eceee6;
 }
 
 .borderbox {
   width: 100%;
-  height: 1rem;
+  height: 2rem;
   background-color: #eceee6;
 }
 
@@ -303,7 +309,7 @@ cv2
 
 .subtitle-nomal-wrapping .subtitle-nomal h2 {
   background-color: #002752;
-  font-size: 1.15rem;
+  font-size: 1.21rem;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -541,21 +547,22 @@ cv2
 
 .subtitle-nomal-wrapping .subtitle-nomal h2 {
   background-color: #002752;
-  font-size: 1.15rem;
+  font-size: 1.21rem;
   color: #fff;
   text-align: center;
-  font-weight: bold;
   padding-bottom: 1rem;
+  font-weight: bold;
 }
 
 .title-basic02 .flow02 {
+  font-weight: bold;
   margin-left: 5vw;
   padding-left: 3vw;
   border-left: 0.15rem solid #002752;
 }
 
 .title-basic02 h3 {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #002752;
   text-align: left;
   font-weight: bold;
@@ -609,7 +616,7 @@ cv2
 }
 
 .title-price h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #002752;
   text-align: left;
   font-weight: bold;
@@ -658,10 +665,11 @@ cv2
 }
 
 .mini-corner2 h2 {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #fff;
   text-align: center;
   padding: 2rem 0 2rem 0;
+  font-weight: bold;
 }
 
 /* ーーーーーーーーーーーーーーーーーーーーーーーーー
@@ -781,7 +789,7 @@ cv2
 
 .subtitle-nomal-wrapping2 .subtitle-nomal h2 {
   background-color: #0A5A1C;
-  font-size: 1.15rem;
+  font-size: 1.21rem;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -820,7 +828,7 @@ cv2
 }
 
 .greeting h2 {
-  font-size: 1.15rem;
+  font-size: 1.21rem;
   color: #393e4f;
   text-align: center;
   font-weight: bold;
@@ -840,7 +848,7 @@ cv2
 }
 
 .yt-title h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #002752;
   text-align: left;
   font-weight: bold;
@@ -921,4 +929,35 @@ footer {
 レスポンシブ
 
 ----------------------------------------- */
+@media screen and (max-width: 300px) {
+  .title-sub {
+    font-size: 0.65rem;
+  }
+  .des02 {
+    font-size: 0.65rem;
+  }
+  .greeting p {
+    font-size: 0.64rem;
+    padding: 0 0 1rem 4%;
+  }
+  .title-price p {
+    font-size: 0.65rem;
+  }
+  .attention:before {
+    border-bottom: 10vw solid #eceee6;
+    border-left: 110vw solid transparent;
+  }
+  .attention:after {
+    border-bottom: 10vw solid #eceee6;
+    border-right: 110vw solid transparent;
+  }
+  .counseling:before {
+    border-bottom: 10vw solid #eceee6;
+    border-left: 110vw solid transparent;
+  }
+  .counseling:after {
+    border-bottom: 10vw solid #eceee6;
+    border-right: 110vw solid transparent;
+  }
+}
 /*# sourceMappingURL=mobile.css.map */
